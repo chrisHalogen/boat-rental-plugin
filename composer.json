@@ -1,0 +1,19 @@
+{
+  "name": "chris/hid-rental-plugin",
+  "description": "A plugin for managing vehicle rentals.",
+  "version": "1.0.0",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Chris Halogen",
+      "email": "christackoms@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "fakerphp/faker": "^1.24",
+    "stripe/stripe-php": "^16.6",
+    "dompdf/dompdf": "^3.1"
+  }
+}
